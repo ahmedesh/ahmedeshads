@@ -1,0 +1,98 @@
+
+  body{
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+  }
+  .clearfix
+  {
+      clear: both;
+  }
+  #demo
+  {
+     background-color: rgb(195, 206, 226);
+     height: 100vh; 
+     width: 50px;
+     height: 5px;
+    
+  }
+  #demo h1
+  {
+      text-align: center;
+      color: rgb(23, 71, 71);
+      font-weight: 700;
+      padding-bottom: 50px;
+      padding-top: 50px;
+      display: none;
+}
+#demo img
+{
+    width: 100%;
+    cursor: pointer;
+}
+#demo .col-md-4
+{
+    display: none;
+   
+}
+.img-item
+{
+    width: 33.33333%;
+float: left;
+padding: 10px;
+}
+.content
+{
+    padding-top: 30px;
+}
+#all-box
+{
+    position: fixed;
+    left: 0;
+    top: 100px;
+    z-index: 99999;
+}
+#color-box
+{
+    background-color: rgb(238, 235, 235);
+    float: left;
+    padding: 30px;
+}
+#icon-box
+{
+    float: left;
+    font-size: 20px;
+    background-color: rgb(114, 89, 138);
+    color: white;
+    padding: 10px;
+}
+.color-item
+{
+    width: 30px;
+    height: 30px;
+    background-color: indigo;
+    display: inline-block;
+}
+.contactas
+{
+    background-color: rgb(172, 141, 243);
+    background: linear-gradient(90deg,rgb(228, 116, 238),rgb(172, 141, 243));
+    height: 65vh;
+
+}
+.contactas h2{
+    padding-top: 50px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: white;
+text-align: center;
+
+}
+.contactas p{
+    padding-top: 50px;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
